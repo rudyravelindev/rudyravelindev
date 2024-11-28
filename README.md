@@ -1,6 +1,6 @@
 - 👋 Hi, I’m Rudy Ravelin a Tech passionate based in Kirkland WA USA
 - 👀 I’m interested in Web Development.
-- 🌱 I’m currently learning web developemnt on The Odin Project. 
+- 🌱 I’m currently learning web developemnt on TripleTen. 
 - 💞️ I’m looking to collaborate on any junior level project that can help me level up my skills. 
 - 📫 How to reach me by email: rudyravelin@gmail.com
 - 😄 Pronouns: He/Him
