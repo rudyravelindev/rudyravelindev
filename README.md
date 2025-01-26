@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Rudy Ravelin</h1>
-<h3 align="center">A passionate frontend developer from Washington State</h3>
+<h3 align="center">An Aspiring Software Developer from Washington State</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rudyravelindev&label=Profile%20views&color=0e75b6&style=flat" alt="rudyravelindev" /> </p>
 
