@@ -13,7 +13,7 @@
 
 - 👨‍💻 All of my projects are available at [https://rudyravelindev.github.io/rudyravelindev/](https://rudyravelindev.github.io/rudyravelindev/)
 
-- 💬 Ask me about **HTML/CSS, Git, GitHub, VSCode, Figma**
+- 💬 Ask me about **HTML/CSS, Git, GitHub, VSCode, Figma, JavaScript**
 
 - 📫 How to reach me **rudyravelindev@gmail.com**
 
