@@ -7,9 +7,9 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🔭 I’m currently working on [Spots](https://rudyravelindev.github.io/se_project_spots/)
+- 🔭 I’m currently working on [WTWR](https://rudyravelindev.github.io/se_project_react/)
 
-- 🌱 I’m currently learning **HTML/CSS, Git, GitHub, VSCode, Figma**
+- 🌱 I’m currently learning **HTML/CSS, JavaScript, React, Git, GitHub, VSCode, Figma**
 
 - 👨‍💻 All of my projects are available at [https://rudyravelindev.github.io/rudyravelindev/](https://rudyravelindev.github.io/rudyravelindev/)
 
