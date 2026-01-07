@@ -7,7 +7,7 @@
 
 <p align="left">
   <a href="https://twitter.com/ravelinrudy" target="blank">
-    <img src="https://img.shields.io/twitter/follow/ravelinrudy?logo=twitter&style=for-the-badge" alt="ravelinrudy" />
+    <img src="https://x.com/DevRavelin/photo" alt="ravelinrudy" />
   </a>
 </p>
 
