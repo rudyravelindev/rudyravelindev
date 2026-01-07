@@ -11,7 +11,7 @@
   </a>
 </p>
 
-- 🔭 I’m currently working on [HappyFindr](https://rudyravelindev.github.io/happyfindr-frontend/)
+- 🔭 I’m currently working on [TERMSLIFY](https://www.termslify.com/)
 
 - 🌱 I’m currently learning **HTML/CSS, JavaScript, React, Git, GitHub, VSCode, Figma**
 
