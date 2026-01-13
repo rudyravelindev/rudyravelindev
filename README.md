@@ -15,7 +15,7 @@
 
 - 🌱 I’m currently learning **HTML/CSS, JavaScript, React, Git, GitHub, VSCode, Figma**
 
-- 👨‍💻 All of my projects are available at [rudyravelin.com](https://rudyravelindev.github.io/rudyravelindev/)
+- 👨‍💻 All of my projects are available at [RUDY RAVELIN](https://rudyravelindev.github.io/rudyravelindev/)
 
 - 💬 Ask me about **HTML/CSS, Git, GitHub, VSCode, Figma, JavaScript**
 
