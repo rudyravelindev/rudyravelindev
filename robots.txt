@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rudyravelindev.vercel.app/sitemap.xml
