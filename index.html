@@ -5,8 +5,581 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rudy Ravelin - Software Engineer</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Coming Soon</h1>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">Rudy Ravelin</div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#want-to-learn" class="nav-link">Want to Learn</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="resume.html" class="nav-link">Resume</a></li>
+        </ul>
+        <div class="nav-controls">
+          <a
+            href="https://github.com/rudyravelindev"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-social-link"
+            aria-label="GitHub"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+          <a
+            href="https://x.com/DevRavelin"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-social-link"
+            aria-label="Twitter"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+            </svg>
+          </a>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            Hi, I'm <span class="highlight">Rudy Ravelin</span>
+          </h1>
+          <p class="hero-subtitle">
+            A Web Developer from Washington State, building modern web
+            applications under <a href="https://lionwizardtech.com/" target="_blank" rel="noopener noreferrer" class="highlight">Lion Wizard Tech</a>.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./assets/headshot.JPG" alt="Rudy Ravelin" />
+        </div>
+      </div>
+      <div class="scroll-indicator" id="scrollIndicator">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate web developer based in Washington State, currently
+              working on exciting projects under <a href="https://lionwizardtech.com/" target="_blank" rel="noopener noreferrer" class="project-link">Lion Wizard Tech</a>. I love
+              building modern, responsive web applications that provide great
+              user experiences.
+            </p>
+            <p>
+              Currently, I'm focused on developing
+              <a
+                href="https://www.termslify.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+                >TERMSLIFY</a
+              >, a project that showcases my skills in web development and
+              problem-solving.
+            </p>
+            <p>
+              I'm continuously learning and expanding my knowledge in HTML/CSS,
+              JavaScript, React, Node.js, Express, MongoDB, Git & GitHub, VSCode,
+              Notion, and Slack. When I'm not coding, you might find me enjoying
+              some delicious fried pork! 🍖
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">TERMSLIFY</h3>
+              <p class="project-description">
+                Currently working on TERMSLIFY, a modern web application that
+                demonstrates my skills in frontend development and user
+                experience design.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Vite</span>
+                <span class="tech-tag">Express</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://www.termslify.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link-btn"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">HappyFindr</h3>
+              <p class="project-description">
+                A frontend application designed to help users discover and find
+                happiness through various features and interactive experiences.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML/CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Frontend</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://rudyravelindev.github.io/happyfindr-frontend/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link-btn"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Coffee Shop</h3>
+              <p class="project-description">
+                A specialty coffee shop website featuring recipes, table
+                booking system, menu display, and contact information. Built
+                for the Triple Peaks Library study zone.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML/CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Web Design</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://rudyravelindev.github.io/se_project_coffeeshop/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link-btn"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Fire Women</h3>
+              <p class="project-description">
+                Website empowering women through education, mentorship, and
+                community support.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">HTML/CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">UI/UX</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://rudyravelindev.github.io/fire-women/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link-btn"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">React Project</h3>
+              <p class="project-description">
+                A modern React application built with Vite, showcasing
+                component-based architecture and modern frontend development
+                practices.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Vite</span>
+                <span class="tech-tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://rudyravelindev.github.io/se_project_react/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-link-btn"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Skills & Tools</h2>
+        <div class="skills-grid">
+          <div class="skill-item">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 18c.214 0 .428-.027.637-.08l-2.705-2.705c-.053.209-.08.423-.08.637 0 .53.211 1.037.586 1.412.375.375.882.586 1.412.586zm8.5-1.5c0 .276-.111.525-.293.707l-1.414 1.414c-.182.182-.431.293-.707.293s-.525-.111-.707-.293l-4.813-4.813c-.053.209-.08.423-.08.637 0 .53.211 1.037.586 1.412.375.375.882.586 1.412.586s1.037-.211 1.412-.586l1.414-1.414c.182-.182.293-.431.293-.707s-.111-.525-.293-.707l-1.414-1.414c-.182-.182-.431-.293-.707-.293s-.525.111-.707.293l-4.813 4.813c-.053-.209-.08-.423-.08-.637 0-.53.211-1.037.586-1.412.375-.375.882-.586 1.412-.586s1.037.211 1.412.586l1.414 1.414c.182.182.293.431.293.707zm-16.5-6.5c0-.53.211-1.037.586-1.412.375-.375.882-.586 1.412-.586s1.037.211 1.412.586l1.414 1.414c.182.182.293.431.293.707s-.111.525-.293.707l-1.414 1.414c-.182.182-.431.293-.707.293s-.525-.111-.707-.293l-1.414-1.414c-.182-.182-.293-.431-.293-.707zm16.5-6.5c0-.53-.211-1.037-.586-1.412-.375-.375-.882-.586-1.412-.586s-1.037.211-1.412.586l-1.414 1.414c-.182.182-.293.431-.293.707s.111.525.293.707l1.414 1.414c.182.182.431.293.707.293s.525-.111.707-.293l1.414-1.414c.182-.182.293-.431.293-.707z"
+                />
+              </svg>
+            </div>
+            <h3>HTML/CSS</h3>
+            <p>Building semantic, accessible, and responsive web interfaces</p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Creating interactive and dynamic user experiences</p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>React</h3>
+            <p>Building modern, component-based user interfaces</p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>Git & GitHub</h3>
+            <p>Version control and collaborative development</p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>Notion</h3>
+            <p>Productivity and documentation workspace</p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>VSCode</h3>
+            <p>Efficient development workflow and productivity</p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>Node.js</h3>
+            <p>Server-side JavaScript runtime for building scalable applications</p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>Express</h3>
+            <p>Fast, unopinionated web framework for Node.js</p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>MongoDB</h3>
+            <p>NoSQL database for modern application development</p>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>Slack</h3>
+            <p>Team communication and collaboration platform</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Want to Learn Section -->
+    <section id="want-to-learn" class="want-to-learn">
+      <div class="container">
+        <h2 class="section-title">Want to Learn</h2>
+        <p class="section-subtitle">
+          Technologies and tools I'm excited to explore and master next
+        </p>
+        <div class="skills-grid">
+          <div class="skill-item learning">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>Next.js</h3>
+            <p>React framework with server-side rendering and static site generation</p>
+          </div>
+          <div class="skill-item learning">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>Tailwind CSS</h3>
+            <p>Utility-first CSS framework for rapid UI development</p>
+          </div>
+          <div class="skill-item learning">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>TypeScript</h3>
+            <p>Typed superset of JavaScript for better code quality and developer experience</p>
+          </div>
+          <div class="skill-item learning">
+            <div class="skill-icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                />
+              </svg>
+            </div>
+            <h3>Docker</h3>
+            <p>Containerization platform for building and deploying applications</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-subtitle">
+          I'm always open to discussing new projects, creative ideas, or
+          opportunities to be part of your visions.
+        </p>
+        <div class="contact-content">
+          <div class="contact-info">
+            <a
+              href="mailto:rudyravelindev@gmail.com"
+              class="contact-item"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="contact-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <p>rudyravelindev@gmail.com</p>
+              </div>
+            </a>
+            <a
+              href="https://linkedin.com/in/rudyravelin"
+              class="contact-item"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="contact-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h3>LinkedIn</h3>
+                <p>Connect with me</p>
+              </div>
+            </a>
+            <a
+              href="https://www.youtube.com/@rudyravelindev"
+              class="contact-item"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="contact-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path
+                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                  />
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h3>YouTube</h3>
+                <p>Watch my content</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Rudy Ravelin. All rights reserved.</p>
+        <p class="footer-note">Built with passion in Washington State</p>
+      </div>
+    </footer>
+
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

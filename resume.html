@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rudy Ravelin - Resume</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="index.html" style="text-decoration: none; color: inherit;"
+            >Rudy Ravelin</a
+          >
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html#home" class="nav-link">Home</a></li>
+          <li><a href="index.html#about" class="nav-link">About</a></li>
+          <li><a href="index.html#projects" class="nav-link">Projects</a></li>
+          <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+          <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+          <li><a href="resume.html" class="nav-link active">Resume</a></li>
+        </ul>
+        <div class="nav-controls">
+          <a
+            href="https://github.com/rudyravelindev"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-social-link"
+            aria-label="GitHub"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+          <a
+            href="https://x.com/DevRavelin"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="nav-social-link"
+            aria-label="Twitter"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+            </svg>
+          </a>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Resume Content -->
+    <main class="resume-container">
+      <div class="resume-wrapper">
+        <!-- Header -->
+        <header class="resume-header">
+          <h1 class="resume-name">Rudy Ravelin</h1>
+          <p class="resume-title">Web Developer</p>
+          <div class="resume-contact">
+            <a href="mailto:rudyravelindev@gmail.com">rudyravelindev@gmail.com</a>
+            <span>•</span>
+            <a href="tel:4257610557">425.761.0557</a>
+            <span>•</span>
+            <a href="https://linkedin.com/in/rudyravelin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <span>•</span>
+            <a href="https://github.com/rudyravelindev" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </header>
+
+        <!-- Profile -->
+        <section class="resume-section">
+          <h2 class="resume-section-title">Profile</h2>
+          <p class="resume-text">
+            Motivated Web Developer with hands-on experience in front-end development, SEO optimization, and website performance enhancement. I enjoy building responsive and user-friendly WordPress websites utilizing modern frameworks like React. Driven by problem-solving, clean code, and continuous improvement. Known for adapting quickly to new technologies, collaborating effectively across teams, and delivering projects that improve user experience and performance.
+          </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="resume-section">
+          <h2 class="resume-section-title">Experience</h2>
+          
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3 class="resume-item-title">Logistics Security Analyst</h3>
+              <span class="resume-item-date">July 2025 – Present</span>
+            </div>
+            <p class="resume-item-company">Cargo Signal (Expeditors International) – Seattle, WA</p>
+            <ul class="resume-list">
+              <li>
+                Ensured the integrity and visibility of high-value shipments in a fast-paced global logistics network.
+              </li>
+              <li>
+                Monitored and analyzed digital tracking data to detect anomalies and potential risks using analytical and technical tools.
+              </li>
+              <li>
+                Improved response time to security alerts and enhanced operational efficiency through data-driven recommendations.
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3 class="resume-item-title">Service Lot Attendant</h3>
+              <span class="resume-item-date">July 2023 – July 2025</span>
+            </div>
+            <p class="resume-item-company">Gee Automotive Holdings LLC (Hyundai of Kirkland) – Kirkland, WA</p>
+            <ul class="resume-list">
+              <li>
+                Supported dealership operations during high service volume periods.
+              </li>
+              <li>
+                Maintained real-time inventory tracking and streamlined lot organization to improve workflow.
+              </li>
+              <li>
+                Reduced vehicle retrieval time and improved service department coordination and customer satisfaction.
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3 class="resume-item-title">Web Developer / SEO Specialist</h3>
+              <span class="resume-item-date">Feb 2021 – Mar 2023</span>
+            </div>
+            <p class="resume-item-company">Troyer Websites LLC – Remote</p>
+            <ul class="resume-list">
+              <li>
+                Increased client visibility and optimized site performance for multiple small business clients.
+              </li>
+              <li>
+                Designed and maintained responsive WordPress websites and performed on-page SEO optimization for 40–50 sites monthly.
+              </li>
+              <li>
+                Boosted clients' average site loading speed and improved Google search rankings across multiple projects.
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3 class="resume-item-title">Web Developer</h3>
+              <span class="resume-item-date">July 2018 – Mar 2020</span>
+            </div>
+            <p class="resume-item-company">Noukod (Web Design Agency) – Port-au-Prince, Haiti</p>
+            <ul class="resume-list">
+              <li>
+                Delivered a functional web application for a local educational institution under tight deadlines.
+              </li>
+              <li>
+                Built a school management system using HTML, CSS, Bootstrap, and JavaScript, collaborating closely with stakeholders.
+              </li>
+              <li>
+                Completed the project eight months ahead of schedule with strong client satisfaction.
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3 class="resume-item-title">IT Desktop Support Technician</h3>
+              <span class="resume-item-date">July 2014 – July 2018</span>
+            </div>
+            <p class="resume-item-company">Télé Haïti – Port-au-Prince, Haiti</p>
+            <ul class="resume-list">
+              <li>
+                Maintained reliable IT operations for a major television and streaming service provider.
+              </li>
+              <li>
+                Installed, configured, and supported Windows-based systems, network devices, and streaming servers.
+              </li>
+              <li>
+                Ensured 99% uptime for production systems and improved technical support response time by standardizing troubleshooting procedures.
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="resume-section">
+          <h2 class="resume-section-title">Projects</h2>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3 class="resume-item-title">TERMSLIFY</h3>
+              <span class="resume-item-date">In Progress</span>
+            </div>
+            <p class="resume-item-tech">React • Vite • Express</p>
+            <p class="resume-text">
+              Modern web application that transforms dense legal documents into
+              clear, actionable summaries. Built with React frontend and Express
+              backend.
+            </p>
+            <a href="https://www.termslify.com/" target="_blank" rel="noopener noreferrer" class="resume-link">View Project →</a>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3 class="resume-item-title">HappyFindr</h3>
+              <span class="resume-item-date">2024</span>
+            </div>
+            <p class="resume-item-tech">HTML/CSS • JavaScript</p>
+            <p class="resume-text">
+              Frontend application designed to help users discover and find
+              happiness through various features and interactive experiences.
+            </p>
+            <a href="https://rudyravelindev.github.io/happyfindr-frontend/" target="_blank" rel="noopener noreferrer" class="resume-link">View Project →</a>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3 class="resume-item-title">Coffee Shop</h3>
+              <span class="resume-item-date">2024</span>
+            </div>
+            <p class="resume-item-tech">HTML/CSS • JavaScript</p>
+            <p class="resume-text">
+              Specialty coffee shop website featuring recipes, table booking
+              system, menu display, and contact information.
+            </p>
+            <a href="https://rudyravelindev.github.io/se_project_coffeeshop/" target="_blank" rel="noopener noreferrer" class="resume-link">View Project →</a>
+          </div>
+
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3 class="resume-item-title">Fire Women</h3>
+              <span class="resume-item-date">2024</span>
+            </div>
+            <p class="resume-item-tech">HTML/CSS • JavaScript</p>
+            <p class="resume-text">
+              Organization website empowering women through education, mentorship,
+              and community support with programs and resources.
+            </p>
+            <a href="https://rudyravelindev.github.io/fire-women/" target="_blank" rel="noopener noreferrer" class="resume-link">View Project →</a>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="resume-section">
+          <h2 class="resume-section-title">Technical Skills</h2>
+          <div class="resume-skills">
+            <div class="resume-skill-category">
+              <h3 class="resume-skill-title">Front-End Development</h3>
+              <p class="resume-text">Proficient in HTML5, CSS3, JavaScript and React for building interactive, responsive web interfaces.</p>
+            </div>
+            <div class="resume-skill-category">
+              <h3 class="resume-skill-title">CMS & SEO</h3>
+              <p class="resume-text">Experienced in creating and optimizing WordPress websites for performance, accessibility, and search engine visibility.</p>
+            </div>
+            <div class="resume-skill-category">
+              <h3 class="resume-skill-title">Tools & Workflow</h3>
+              <p class="resume-text">Skilled in using GitHub, VS Code, Jira, Trello, Notion, Microsoft 365, Slack, and Teams to manage and collaborate on projects efficiently.</p>
+            </div>
+            <div class="resume-skill-category">
+              <h3 class="resume-skill-title">Data & Analytics</h3>
+              <p class="resume-text">Apply analytical thinking to monitor metrics, improve site efficiency, and troubleshoot performance issues.</p>
+            </div>
+            <div class="resume-skill-category">
+              <h3 class="resume-skill-title">Soft Skills</h3>
+              <p class="resume-text">Strong communication, organization, and problem-solving abilities; thrive in fast-paced, cross-functional environments.</p>
+            </div>
+            <div class="resume-skill-category">
+              <h3 class="resume-skill-title">Languages</h3>
+              <p class="resume-text">Fluent in English, French, and Haitian Creole.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Education -->
+        <section class="resume-section">
+          <h2 class="resume-section-title">Education</h2>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3 class="resume-item-title">Software Engineering</h3>
+            </div>
+            <p class="resume-item-company">TripleTen</p>
+          </div>
+          <div class="resume-item">
+            <div class="resume-item-header">
+              <h3 class="resume-item-title">Bachelor of Science in Professional Studies</h3>
+            </div>
+            <p class="resume-item-company">Brigham Young University – Idaho (BYU–Idaho)</p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2024 Rudy Ravelin. All rights reserved.</p>
+        <p class="footer-note">Built with passion in Washington State</p>
+      </div>
+    </footer>
+
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
