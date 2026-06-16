@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Rudy Ravelin</h1>
-<h3 align="center">A Web Developer from Washington State, building modern web applications under Lion Wizard Tech.</h3>
+<h3 align="center">A Web Developer from Washington State, building modern web applications.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rudyravelindev&label=Profile%20views&color=24292e&style=flat" alt="rudyravelindev" /> </p>
 
