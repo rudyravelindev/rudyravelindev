@@ -15,7 +15,7 @@
 
 - 🌱 **Current Focus:** Building scalable, full-stack SaaS applications and implementing legal/compliance clarity workflows.
 
-- 👨‍💻 All of my projects are available at [RUDY RAVELIN](https://rudyravelindev.github.io/rudyravelindev/#projects)
+- 👨‍💻 All of my projects are available at [RUDY RAVELIN](https://rudyravelin.com/)
 
 - 💬 Ask me about **HTML/CSS, Git, GitHub, VSCode, Figma, JavaScript**
 
