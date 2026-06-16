@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Rudy Ravelin</h1>
 <h3 align="center">A Web Developer from Washington State, building modern web applications under Lion Wizard Tech.</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rudyravelindev&label=Profile%20views&color=0e75b6&style=flat" alt="rudyravelindev" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=rudyravelindev&label=Profile%20views&color=24292e&style=flat" alt="rudyravelindev" /> </p>
 
 <!-- <p align="left"> <a href="https://user-images.githubusercontent.com/6661165/91657958-61b4fd00-eb00-11ea-9def-dc7ef5367e34.png"><img src="https://github-profile-trophy.vercel.app/?username=rudyravelindev" alt="rudyravelindev" /></a> </p>
 
@@ -13,7 +13,7 @@
 
 - 🔭 I’m currently working on [TERMSLIFY](https://www.termslify.com/)
 
-- 🌱 I’m currently learning **HTML/CSS, JavaScript, React, Git, GitHub, VSCode, Figma**
+- 🌱 I’m currently learning 🌱 \* 🌱 **Current Focus:** Building scalable, full-stack SaaS applications and implementing legal/compliance clarity workflows.
 
 - 👨‍💻 All of my projects are available at [RUDY RAVELIN](https://rudyravelindev.github.io/rudyravelindev/#projects)
 
