@@ -13,7 +13,7 @@
 
 - 🔭 I’m currently working on [TERMSLIFY](https://www.termslify.com/)
 
-- 🌱 I’m currently learning 🌱 \* 🌱 **Current Focus:** Building scalable, full-stack SaaS applications and implementing legal/compliance clarity workflows.
+- 🌱 **Current Focus:** Building scalable, full-stack SaaS applications and implementing legal/compliance clarity workflows.
 
 - 👨‍💻 All of my projects are available at [RUDY RAVELIN](https://rudyravelindev.github.io/rudyravelindev/#projects)
 
